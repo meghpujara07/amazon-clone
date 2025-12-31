@@ -6,7 +6,7 @@
 .navbar{
     width: 100vw;
     position: fixed;
-    height: 60px;
+    height: 65px;
     background-color:#0f1111;
     display: flex;
 
@@ -154,4 +154,50 @@ span{
 }
 .cart-cart{
     align-self: flex-end;
+}
+main{
+    padding-top: 110px;
+    background-image: url(h);
+}
+.panel{
+    width: 100vw;
+    position: fixed;
+    top:65px;
+    display: flex;
+    flex-direction: row;
+   color: #f3f3f3;
+    height: 45px;
+    background-color: #222f3d;
+   
+}
+.panel-all{
+
+    width: 8vw;
+    display: flex;
+    font-weight:700;
+    justify-content: center;
+    align-items: center;
+}
+.panel-icon i{
+    font-weight: 700;
+
+}
+.panel-links{
+    
+    width:60%;
+    display: flex;
+    
+    justify-content:flex-start;
+}
+.panel-links a{
+    align-self: center;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 3%;
+}
+.panel-last{
+    text-align: center;
+    font-weight: 700;
+    align-self: center;
 }
