@@ -3,10 +3,15 @@
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
 }
+body{
+    padding-top: 110px;
+}
+
 .navbar{
     width: 100vw;
     position: fixed;
     height: 65px;
+    top:0px;
     background-color:#0f1111;
     display: flex;
 
@@ -200,4 +205,70 @@ main{
     text-align: center;
     font-weight: 700;
     align-self: center;
+}
+body{
+    padding-top: 110px;
+}
+
+.hero-section{
+    background-image: url("WhatsApp\ Image\ 2025-12-15\ at\ 15.56.03.jpeg");
+    
+    height:80vh ;
+    width: 100vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.hero-message{
+    text-align: center;
+    font-weight: 700;
+    font-size: larger;
+    position: relative;
+    top:550px;
+    
+    font-size: larger;
+    background-color: white;
+    height: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    border: solid transparent;
+    border-radius: 2px;    
+
+}
+.hero-message a{
+    text-decoration: none;
+    color: #007185;
+}
+.shop{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+flex-wrap: wrap;
+background-color: #e2e7e6;
+}
+.box{
+    width: 20vw;
+    border:2px solid black; 
+    color: #000;
+    background-color: white ;
+    height: 45vh;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+.Box-add{
+    height: 15%;
+    
+}
+.Box-heading{
+    height: 10%;;
+}
+.Box-add a{
+    text-decoration: none;
+    color: rgb(72, 102, 116);
+}
+.Box1-image{
+    background-image: url("Box1.jpeg");
+    background-size: cover;
+    height: 80%;
 }
